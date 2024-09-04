@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<title>page number</title>
+
+{% if id %}
+  <h1>this page number is {{ id }}!</h1>
+{% else %}
+  <h1>input page number</h1>
+{% endif %}
+
+{% endblock %}
