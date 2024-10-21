@@ -1,8 +1,30 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>これはテストページです</h1>
-<h2>test page</h2>
-<h3>view check</h3>
+<h1>新しいアプリへようこそ！</h1>
+
+<p>こちらは、新しいアプリのテストユーザーを募集するウェイティングルームです。</p>
+<p>エクセルの管理をもっと簡単にしませんか？
+    あなたの肩こりを減らす、ワンクリックでエクセルを楽にするサービスです！
+</p>
+<div class="app-sample">
+    <img src="{{ url_for('static', filename='img/app_sample.png') }}" alt="アプリのサンプル画像" class="sample-image">
+</div>
+
+
+
+
+<h2>テストユーザー登録</h2>
+<p>以下のGoogle フォームからテストユーザーとして登録してください：</p>
+<a href="https://forms.gle/4adJDFFrvhN3u95R8" target="_blank" class="btn btn-primary">テストユーザー登録フォーム</a>
+
+<h2>最新情報</h2>
+<p>開発の進捗や最新情報については、作者のXアカウントをフォローしてください：</p>
+<a href="https://x.com/ksasakibiz" target="_blank" class="btn btn-info">@ksasakibiz をフォロー</a>
+
+<h3>お問い合わせ</h3>
+<p>ご質問やご意見がございましたら、お気軽にお問い合わせください。</p>
+<p>メールアドレス: <a href="mailto:biz-contact@benelop.jp">biz-contact@benelop.jp</a></p>
+
 
 {% endblock %}
